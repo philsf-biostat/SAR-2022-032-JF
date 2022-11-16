@@ -1,17 +1,19 @@
 # setup -------------------------------------------------------------------
 
+library(epitools)
+library(epiR)
 # library(Hmisc) # describe
 # library(skimr) # skim
-# library(gmodels) # CrossTable
-library(gtsummary)
-library(gt)
+library(gmodels) # CrossTable
+# library(gtsummary)
+# library(gt)
 # library(effectsize)
 # library(finalfit) # missing_compare
 
 # setup gtsummary theme
 
-theme_ff_gtsummary()
-theme_gtsummary_compact()
+# theme_ff_gtsummary()
+# theme_gtsummary_compact()
 # theme_gtsummary_language(language = "pt") # traduzir
 
 # exploratory -------------------------------------------------------------
@@ -27,12 +29,25 @@ theme_gtsummary_compact()
 
 # tables ------------------------------------------------------------------
 
-tab_desc <- analytical %>%
-  tbl_summary(
-    include = -id,
-    # by = exposure,
-  ) %>%
-  # modify_caption(caption = "**Tabela 1** Características demográficas") %>%
-  # modify_header(label ~ "**Características dos pacientes**") %>%
-  # bold_labels() %>%
-  modify_table_styling(columns = "label", align = "c")
+
+
+
+
+analytical %>% oddsratio()
+
+tab.desc <- CrossTable(
+  analytical,
+  prop.r = FALSE,
+  prop.t = FALSE,
+  format = "SPSS"
+)
+
+epi.2by2(
+  analytical,
+  method = "case.control",
+  digits = 2,
+  conf.level = 0.95,
+  units = 100,
+  interpret = FALSE,
+  outcome = "as.columns"
+)
