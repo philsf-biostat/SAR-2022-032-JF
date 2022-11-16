@@ -9,29 +9,8 @@ redirect_from:
 categories:
   - case-control
   - cross-sectional
-  - longitudinal-studies
-  - cohort
-  - clinical-trial
-  - ecological
-  - epidemiology
-  - bioassay
-  - systematic-review
-  - technical-report
-  - data-product
 tags:
   - prevalence
-  - incidence
-  - diagnostic-models
-  - prognostic-models
-  - survival-analysis
-  - efficacy
-  - concordance-analysis
-  - survey
-  - meta-analysis
-  - decision-trees
-  - machine-learning
-  - unsupervised-learning
-  - data-instrument
 ---
 
 Objective
