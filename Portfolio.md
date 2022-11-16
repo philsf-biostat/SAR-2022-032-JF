@@ -36,8 +36,8 @@ tags:
 
 Objective
 
-Statistical Analysis for PERSON (PLACE, yyyy)
-<!-- Technical Report for  PERSON (PLACE, yyyy) -->
+Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2022)
+<!-- Technical Report for Jens Freitag (Helios Klinikum Berlin-Buch, 2021) -->
 
 ## Analyses performed
 
