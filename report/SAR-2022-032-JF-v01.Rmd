@@ -1,5 +1,5 @@
 ---
-title: "[title]"
+title: "Prevalence of knee implant loosening in patients with prior surgery in a German hospital"
 subtitle: 'DOCUMENT: SAR-2022-032-JF-v01'
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: "`r Sys.Date()`"
@@ -37,7 +37,7 @@ panderOptions('table.split.table', 160)
 
 \newpage
 
-**[title]**
+**Prevalence of knee implant loosening in patients with prior surgery in a German hospital**
 
 **Document version**
 
@@ -113,7 +113,7 @@ tab_inf %>%
 
 # References
 
-- **SAP-2022-032-JF-v01** -- Analytical Plan for [title]
+- **SAP-2022-032-JF-v01** -- Analytical Plan for Prevalence of knee implant loosening in patients with prior surgery in a German hospital
 
 # Appendix
 

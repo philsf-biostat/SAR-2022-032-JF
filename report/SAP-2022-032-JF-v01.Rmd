@@ -1,5 +1,5 @@
 ---
-title: "Analytical Plan for [title]"
+title: "Analytical Plan for Prevalence of knee implant loosening in patients with prior surgery in a German hospital"
 subtitle: 'DOCUMENT: SAP-2022-032-JF-v01'
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: "`r Sys.Date()`"
@@ -37,7 +37,7 @@ panderOptions('table.split.table', 160)
 
 \newpage
 
-**Analytical Plan for [title]**
+**Analytical Plan for Prevalence of knee implant loosening in patients with prior surgery in a German hospital**
 
 **Document version**
 
@@ -72,6 +72,8 @@ source("scripts/input.R", encoding = 'UTF-8')
 # Context
 
 ## Objectives
+
+Calculate the prevalence of knee prosthesis loosening in patients with prior history of knee surgery in Helios Klinikum Berlin-Buch, Germany.
 
 ## Hypotheses
 
@@ -254,7 +256,7 @@ All observational studies are recommended to be reported following the STROBE gu
 
 # References
 
-- **SAR-2022-032-JF-v01** -- [title]
+- **SAR-2022-032-JF-v01** -- Prevalence of knee implant loosening in patients with prior surgery in a German hospital
 <!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 - Zarin DA, et al. The ClinicalTrials.gov results database -- update and key issues. N Engl J Med 2011;364:852-60 (<https://doi.org/10.1056/NEJMsa1012065>).
 - Gamble C, et al. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017;318(23):2337–2343 (<https://doi.org/10.1001/jama.2017.18556>).
