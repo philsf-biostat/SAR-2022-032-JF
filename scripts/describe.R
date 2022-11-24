@@ -35,19 +35,20 @@ library(gmodels) # CrossTable
 
 analytical %>% oddsratio()
 
-tab.desc <- CrossTable(
-  analytical,
-  prop.r = FALSE,
-  prop.t = FALSE,
-  format = "SPSS"
-)
+# CrossTable(
+#   analytical,
+#   prop.r = FALSE,
+#   prop.t = FALSE,
+#   prop.chisq = FALSE,
+#   format = "SPSS"
+# )
 
-epi.2by2(
+inf <- epi.2by2(
   analytical,
   method = "case.control",
   digits = 2,
   conf.level = 0.95,
   units = 100,
-  interpret = FALSE,
+  interpret = TRUE,
   outcome = "as.columns"
 )
