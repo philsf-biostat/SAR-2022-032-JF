@@ -27,13 +27,13 @@ Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2022)
 - [Online visualization][reportviz-v01]
 - [PDF][pdf-v01]
 
-<!-- ## Associated analyses -->
+## Associated analyses
 
-<!-- This analysis is part of a larger project and is supported by other analyses, linked below. -->
+This analysis is part of a larger project and is supported by other analyses, linked below.
 
-<!-- **[assoc_title]** -->
+**Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals**
 
-<!-- <[assoc_link]> -->
+<https://philsf-biostat.github.io/SAR-2021-002-JF/>
 
 ## Portfolio
 

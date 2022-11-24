@@ -124,6 +124,14 @@ This analysis was performed using statistical software `R` version `r getRversio
 # knitr::include_graphics("../figures/distr_age.png", error = FALSE)
 ```
 
+## Associated analyses
+
+This analysis is part of a larger project and is supported by other analyses, linked below.
+
+**Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals**
+
+<https://philsf-biostat.github.io/SAR-2021-002-JF/>
+
 ## Availability
 
 All documents from this consultation were included in the consultant's Portfolio.
