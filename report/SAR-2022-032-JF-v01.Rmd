@@ -149,11 +149,11 @@ The portfolio is available at:
 
 ## Analytical dataset
 
-Table A1 shows the structure of the analytical dataset.
+<!-- Table A1 shows the structure of the analytical dataset. -->
 
 ```{r data}
-analytical_mockup %>%
-  pander(caption = "**Table A1** Analytical dataset structure")
+# analytical_mockup %>%
+#   pander(caption = "**Table A1** Analytical dataset structure")
 ```
 
 Due to confidentiality the data-set used in this analysis cannot be shared online in the public version of this report.
