@@ -66,19 +66,22 @@ source("scripts/results.R", encoding = 'UTF-8')
 
 # Methods
 
-## Study parameters
+The methods of this analysis are fully described in the annex document
+**SAP-2022-032-JF-v01**.
 
-### Study design
+<!-- ## Study parameters -->
 
-### Inclusion and exclusion criteria
+<!-- ### Study design -->
 
-### Exposures
+<!-- ### Inclusion and exclusion criteria -->
 
-### Outcomes
+<!-- ### Exposures -->
 
-### Covariates
+<!-- ### Outcomes -->
 
-## Statistical analyses
+<!-- ### Covariates -->
+
+<!-- ## Statistical analyses -->
 
 This analysis was performed using statistical software `R` version `r getRversion()`.
 
@@ -123,6 +126,7 @@ The prevalence of loosening among patients exposed to prior surgery
 # References
 
 - **SAP-2022-032-JF-v01** -- Analytical Plan for Prevalence of knee implant loosening in patients with prior surgery in a German hospital
+- **SAR-2021-002-JF-v02** -- Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals
 
 # Appendix
 
