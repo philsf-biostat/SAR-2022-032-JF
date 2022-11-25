@@ -52,7 +52,7 @@ rownames(tab_desc)[3] <- "Total"
 
 inf <- epi.2by2(
   analytical,
-  method = "case.control",
+  method = "cross.sectional",
   digits = 2,
   conf.level = 0.95,
   units = 100,
