@@ -99,7 +99,15 @@ tab_desc %>%
 # knitr::include_graphics("../figures/outcome.png", error = FALSE)
 ```
 
+The prevalence of loosening among patients exposed to prior surgery
+
+- prevalence of loosening among patients exposed to prior surgery was 25.7%, while among unexposed it was 15.7%.
+- The outcome prevalence among the exposed was 1.64 (95% CI 0.75 to 3.58) times greater than the outcome prevalence among the unexposed. 
+
 ## Inferential analysis
+
+- odds of loosening among patients exposed to prior surgery was 1.86 (95% CI 0.69 to 5.02) times greater than the outcome odds among the unexposed. 
+- 45.8% of outcomes in the exposed were attributable to exposure (95% CI -67.3% to 82.1%).
 
 ```{r tab_inf}
 # tab_inf %>%
