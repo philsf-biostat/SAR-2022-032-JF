@@ -60,9 +60,17 @@ source("scripts/results.R", encoding = 'UTF-8')
 
 # Context
 
+In **SAR-2021-002-JF-v02** the average survival time of knee implants was estimated.
+After that retrospective cohort was analyzed, aggregated counts of previous surgery were made available, and this analysis will investigate whether or not this exposure is a significant risk factor for loosening.
+
 ## Objectives
 
+Calculate the prevalence of knee prosthesis loosening in patients with prior history of knee surgery in Helios Klinikum Berlin-Buch, Germany.
+
 ## Data reception and cleaning
+
+The original data was already aggregated into counts of exposure and outcome.
+No individual information was available on these patients (see Observations).
 
 # Methods
 
