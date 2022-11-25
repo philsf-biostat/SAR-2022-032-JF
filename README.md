@@ -8,6 +8,7 @@ Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2022)
 ## Analyses performed
 
 1. Descriptive analysis
+1. Inferential analysis
 
 ## Documents
 
