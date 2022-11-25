@@ -123,6 +123,7 @@ The prevalence of loosening among patients exposed to prior surgery
 # References
 
 - **SAP-2022-032-JF-v01** -- Analytical Plan for Prevalence of knee implant loosening in patients with prior surgery in a German hospital
+- **SAR-2021-002-JF-v02** -- Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals
 
 # Appendix
 
