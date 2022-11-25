@@ -97,6 +97,9 @@ This analysis was performed using statistical software `R` version `r getRversio
 
 ## Study population and follow up
 
+There were 20 loosening events in total in the study sample (Table 1).
+The prevalence of loosening among patients exposed to prior surgery was 25.7% (9 out of 35), while among unexposed it was 15.7% (11 out of 70).
+
 ```{r tab_desc}
 tab_desc %>%
   kable(
