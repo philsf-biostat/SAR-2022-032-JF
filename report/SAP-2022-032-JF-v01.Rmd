@@ -133,6 +133,9 @@ The measure of effect will be assessed with the OR.
 The measures of association between exposure and outcome will be assessed with the PR, as an additional measure.
 Both the point estimates and the CI around the estimates will be calculated using the Wald method.
 
+Significance will be tested and interpreted from the Wald CI for all measures.
+Additionally the chi-squared test will be calculated for the OR, without Yates' continuity correction.
+
 ### Statistical modeling
 
 N/A

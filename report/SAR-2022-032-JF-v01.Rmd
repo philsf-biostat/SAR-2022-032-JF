@@ -58,6 +58,10 @@ source("scripts/results.R", encoding = 'UTF-8')
 
 # Abbreviations
 
+- CI: confidence interval
+- OR: odds ratio
+- PR: prevalence ratio
+
 # Context
 
 In **SAR-2021-002-JF-v02** the average survival time of knee implants was estimated.
@@ -95,13 +99,16 @@ This analysis was performed using statistical software `R` version `r getRversio
 
 # Results
 
-## Study population and follow up
+## Prevalence analysis
+
+There were 105 patients included in the analysis, of which 20 experienced a loosening event (Table 1).
+The prevalence of loosening among patients exposed to prior surgery was 25.7% (9 out of 35), while among unexposed it was 15.7% (11 out of 70).
 
 ```{r tab_desc}
 tab_desc %>%
   kable(
     # colnames = c(" ", "Loosening", "No loosening", "Total"),
-    caption = "**Table 1** caption"
+    caption = "**Table 1** Frequencies of loosening events and exposures in cases and controls."
   )
 ```
 
@@ -110,15 +117,18 @@ tab_desc %>%
 # knitr::include_graphics("../figures/outcome.png", error = FALSE)
 ```
 
-The prevalence of loosening among patients exposed to prior surgery
+The prevalence ratio was 1.64 (95% CI 0.75 to 3.58).
+This means that the prevalence of loosening among the exposed was 64% greater than the prevalence among the unexposed.
+Since the CI includes the PR = 1, then the PR is not significant.
 
-- prevalence of loosening among patients exposed to prior surgery was 25.7%, while among unexposed it was 15.7%.
-- The outcome prevalence among the exposed was 1.64 (95% CI 0.75 to 3.58) times greater than the outcome prevalence among the unexposed. 
+## Retrospective analysis
 
-## Inferential analysis
+The odds of loosening among patients exposed to prior surgery was 1.86 (95% CI 0.69 to 5.02) times greater than the outcome odds among the unexposed.
+This means that, starting from the cases and analyzing the retrospective risk factor, the chance of patients that experienced the outcome also having had a prior surgery is 86% higher than the controls.
+Since the CI includes the OR = 1, then the OR is not significant (chi-square test: p = 0.219).
 
-- odds of loosening among patients exposed to prior surgery was 1.86 (95% CI 0.69 to 5.02) times greater than the outcome odds among the unexposed. 
-- 45.8% of outcomes in the exposed were attributable to exposure (95% CI -67.3% to 82.1%).
+The attributable fraction in the exposed is 45.8%.
+This means that 45.8% of outcomes in the exposed were attributable to exposure (95% CI -67.3% to 82.1%).
 
 ```{r tab_inf}
 # tab_inf %>%
@@ -144,6 +154,9 @@ In particular when a retrospective study is conducted using hospital records, it
 
 # Conclusions
 
+The prevalence of loosening was 25.7% among cases and 15.7% among controls.
+Cases had 86% higher odds of loosening when compared to controls.
+
 # References
 
 - **SAP-2022-032-JF-v01** -- Analytical Plan for Prevalence of knee implant loosening in patients with prior surgery in a German hospital
@@ -154,6 +167,8 @@ In particular when a retrospective study is conducted using hospital records, it
 # Appendix
 
 ## Exploratory data analysis
+
+N/A
 
 ```{r A1, fig.cap="**Figure A1** Distribution of age in the study population."}
 # ![Age](../figures/distr_age.png)
