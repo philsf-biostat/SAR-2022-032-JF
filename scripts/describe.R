@@ -44,7 +44,7 @@ rownames(tab_desc)[3] <- "Total"
 
 # CrossTable(
 #   analytical,
-#   prop.r = FALSE,
+#   prop.c = FALSE,
 #   prop.t = FALSE,
 #   prop.chisq = FALSE,
 #   format = "SPSS"
