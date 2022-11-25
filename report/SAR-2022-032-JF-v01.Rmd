@@ -117,8 +117,9 @@ tab_desc %>%
 # knitr::include_graphics("../figures/outcome.png", error = FALSE)
 ```
 
-The PR was 1.64 (95% CI 0.75 to 3.58).
-This means that the prevalence of loosening among the exposed was 64% greater than the prevalence among the unexposed. 
+The prevalence ratio was 1.64 (95% CI 0.75 to 3.58).
+This means that the prevalence of loosening among the exposed was 64% greater than the prevalence among the unexposed.
+Since the CI includes the PR = 1, then the PR is not significant.
 
 ## Retrospective analysis
 
