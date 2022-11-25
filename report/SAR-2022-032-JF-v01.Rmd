@@ -87,10 +87,11 @@ This analysis was performed using statistical software `R` version `r getRversio
 ## Study population and follow up
 
 ```{r tab_desc}
-# tab_desc %>%
-#   as_kable(
-#     caption = "**Table 1** caption"
-#   )
+tab_desc %>%
+  kable(
+    # colnames = c(" ", "Loosening", "No loosening", "Total"),
+    caption = "**Table 1** caption"
+  )
 ```
 
 ```{r fig1, fig.cap="**Figure 1** caption"}

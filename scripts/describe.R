@@ -35,6 +35,13 @@ library(gmodels) # CrossTable
 
 analytical %>% oddsratio()
 
+tab_desc <- analytical %>%
+  addmargins() %>%
+  as.data.frame() %>%
+  rename(Total = Sum)
+
+rownames(tab_desc)[3] <- "Total"
+
 # CrossTable(
 #   analytical,
 #   prop.r = FALSE,
