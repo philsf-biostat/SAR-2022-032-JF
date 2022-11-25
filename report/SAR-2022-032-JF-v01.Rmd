@@ -1,5 +1,5 @@
 ---
-title: "Prevalence of knee implant loosening in patients with prior surgery in a German hospital"
+title: "Prevalence of knee implant loosening in patients with prior surgery in a German hospital: case-control study"
 subtitle: 'DOCUMENT: SAR-2022-032-JF-v01'
 author: '**From:** Felipe Figueiredo **To:** Jens Freitag'
 date: "`r Sys.Date()`"
@@ -37,7 +37,7 @@ panderOptions('table.split.table', 160)
 
 \newpage
 
-**Prevalence of knee implant loosening in patients with prior surgery in a German hospital**
+**Prevalence of knee implant loosening in patients with prior surgery in a German hospital: case-control study**
 
 **Document version**
 
