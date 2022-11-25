@@ -58,6 +58,10 @@ source("scripts/results.R", encoding = 'UTF-8')
 
 # Abbreviations
 
+- CI: confidence interval
+- OR: odds ratio
+- PR: prevalence ratio
+
 # Context
 
 In **SAR-2021-002-JF-v02** the average survival time of knee implants was estimated.
@@ -162,6 +166,8 @@ Cases had 86% higher odds of loosening when compared to controls.
 # Appendix
 
 ## Exploratory data analysis
+
+N/A
 
 ```{r A1, fig.cap="**Figure A1** Distribution of age in the study population."}
 # ![Age](../figures/distr_age.png)
