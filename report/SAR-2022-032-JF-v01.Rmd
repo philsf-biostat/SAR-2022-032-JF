@@ -104,7 +104,7 @@ The prevalence of loosening among patients exposed to prior surgery was 25.7% (9
 tab_desc %>%
   kable(
     # colnames = c(" ", "Loosening", "No loosening", "Total"),
-    caption = "**Table 1** caption"
+    caption = "**Table 1** Frequencies of loosening events and exposures in cases and controls."
   )
 ```
 
