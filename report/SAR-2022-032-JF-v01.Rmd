@@ -87,10 +87,11 @@ This analysis was performed using statistical software `R` version `r getRversio
 ## Study population and follow up
 
 ```{r tab_desc}
-# tab_desc %>%
-#   as_kable(
-#     caption = "**Table 1** caption"
-#   )
+tab_desc %>%
+  kable(
+    # colnames = c(" ", "Loosening", "No loosening", "Total"),
+    caption = "**Table 1** caption"
+  )
 ```
 
 ```{r fig1, fig.cap="**Figure 1** caption"}
@@ -98,7 +99,15 @@ This analysis was performed using statistical software `R` version `r getRversio
 # knitr::include_graphics("../figures/outcome.png", error = FALSE)
 ```
 
+The prevalence of loosening among patients exposed to prior surgery
+
+- prevalence of loosening among patients exposed to prior surgery was 25.7%, while among unexposed it was 15.7%.
+- The outcome prevalence among the exposed was 1.64 (95% CI 0.75 to 3.58) times greater than the outcome prevalence among the unexposed. 
+
 ## Inferential analysis
+
+- odds of loosening among patients exposed to prior surgery was 1.86 (95% CI 0.69 to 5.02) times greater than the outcome odds among the unexposed. 
+- 45.8% of outcomes in the exposed were attributable to exposure (95% CI -67.3% to 82.1%).
 
 ```{r tab_inf}
 # tab_inf %>%
@@ -124,6 +133,14 @@ This analysis was performed using statistical software `R` version `r getRversio
 # knitr::include_graphics("../figures/distr_age.png", error = FALSE)
 ```
 
+## Associated analyses
+
+This analysis is part of a larger project and is supported by other analyses, linked below.
+
+**Implant failure rates in a knee prosthesis sub-population of the Helios Klinikum Berlin-Buch hospitals**
+
+<https://philsf-biostat.github.io/SAR-2021-002-JF/>
+
 ## Availability
 
 All documents from this consultation were included in the consultant's Portfolio.
@@ -141,11 +158,11 @@ The portfolio is available at:
 
 ## Analytical dataset
 
-Table A1 shows the structure of the analytical dataset.
+<!-- Table A1 shows the structure of the analytical dataset. -->
 
 ```{r data}
-analytical_mockup %>%
-  pander(caption = "**Table A1** Analytical dataset structure")
+# analytical_mockup %>%
+#   pander(caption = "**Table A1** Analytical dataset structure")
 ```
 
 Due to confidentiality the data-set used in this analysis cannot be shared online in the public version of this report.
