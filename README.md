@@ -1,4 +1,4 @@
-# Prevalence of knee implant loosening in patients with prior surgery in a German hospital
+# Prevalence of knee implant loosening in patients with prior surgery in a German hospital: case-control study
 
 Calculate the prevalence of knee prosthesis loosening in patients with prior history of knee surgery in Helios Klinikum Berlin-Buch, Germany.
 
@@ -8,6 +8,7 @@ Statistical Analysis for Jens Freitag (Helios Klinikum Berlin-Buch, 2022)
 ## Analyses performed
 
 1. Descriptive analysis
+1. Inferential analysis
 
 ## Documents
 
